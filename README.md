@@ -3,7 +3,7 @@
 ## Short Description
 This repository implements the shape-matching morphing algorithm described in [Maya de Buhan et al. 2016](https://www.sciencedirect.com/science/article/pii/S1631073X16300802). It provides:
 
-1. **A native C++/C implementation** (in `Morphing/`) based on the original ISCD Toolbox.  
+1. **A native C implementation** (in `Morphing/`) from the original ISCD Toolbox.  
 2. **A Python wrapper** (in `morphing_py/`) leveraging the FEniCS/DOLFINx library for finite element operations.
 
 The code transforms a template mesh into a target mesh by computing an elastic deformation that minimizes an energy functional, enabling smooth shape interpolation and registration.
@@ -71,7 +71,7 @@ The code transforms a template mesh into a target mesh by computing an elastic d
 
 ## Review Summary
 
-This project faithfully reproduces the elastic shape-matching algorithm from Lévy et al. in both C and Python. The C code retains performance of the original toolbox, while the Python version enhances usability and leverages modern finite-element tooling. The dual implementation facilitates benchmarking, extension, and integration into Python-based pipelines.
+This project faithfully reproduces the elastic shape-matching algorithm from Maya de Buhan et al. in Python. The implementation facilitates benchmarking, extension, and integration into Python-based pipelines.
 
 ---
 
