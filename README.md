@@ -1,7 +1,7 @@
 # Shape Matching Morphing Library
 
 ## Short Description
-This repository implements the shape-matching morphing algorithm described in [Lévy et al. 2016](https://www.sciencedirect.com/science/article/pii/S1631073X16300802). It provides:
+This repository implements the shape-matching morphing algorithm described in [Maya de Buhan et al. 2016](https://www.sciencedirect.com/science/article/pii/S1631073X16300802). It provides:
 
 1. **A native C++/C implementation** (in `Morphing/`) based on the original ISCD Toolbox.  
 2. **A Python wrapper** (in `morphing_py/`) leveraging the FEniCS/DOLFINx library for finite element operations.
